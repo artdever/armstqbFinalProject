@@ -1,0 +1,9 @@
+{
+  "id": 44,
+  "name": "Pink Peony",
+  "price": 23.74,
+  "description": "A beautiful pink peony to brighten your day.",
+  "image_url": "img/flower_44.jpg",
+  "stock": 54,
+  "category": "Sunflowers"
+}

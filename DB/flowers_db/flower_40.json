@@ -1,0 +1,9 @@
+{
+  "id": 40,
+  "name": "Lavender",
+  "price": 21.08,
+  "description": "A beautiful lavender to brighten your day.",
+  "image_url": "img/flower_40.jpg",
+  "stock": 47,
+  "category": "Sunflowers"
+}

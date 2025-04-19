@@ -1,0 +1,9 @@
+{
+  "id": 23,
+  "name": "Sunflower",
+  "price": 26.56,
+  "description": "A beautiful sunflower to brighten your day.",
+  "image_url": "img/flower_23.jpg",
+  "stock": 39,
+  "category": "Roses"
+}

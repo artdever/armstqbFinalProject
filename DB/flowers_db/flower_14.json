@@ -1,0 +1,9 @@
+{
+  "id": 14,
+  "name": "Orchid",
+  "price": 11.53,
+  "description": "A beautiful orchid to brighten your day.",
+  "image_url": "img/flower_14.jpg",
+  "stock": 10,
+  "category": "Peonies"
+}

@@ -1,0 +1,9 @@
+{
+  "id": 12,
+  "name": "Lavender",
+  "price": 7.44,
+  "description": "A beautiful lavender to brighten your day.",
+  "image_url": "img/flower_12.jpg",
+  "stock": 66,
+  "category": "Roses"
+}

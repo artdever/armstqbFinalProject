@@ -1,0 +1,9 @@
+{
+  "id": 22,
+  "name": "Blue Hydrangea",
+  "price": 23.87,
+  "description": "A beautiful blue hydrangea to brighten your day.",
+  "image_url": "img/flower_22.jpg",
+  "stock": 58,
+  "category": "Wildflowers"
+}

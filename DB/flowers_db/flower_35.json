@@ -1,0 +1,9 @@
+{
+  "id": 35,
+  "name": "Carnation",
+  "price": 21.65,
+  "description": "A beautiful carnation to brighten your day.",
+  "image_url": "img/flower_35.jpg",
+  "stock": 71,
+  "category": "Orchids"
+}

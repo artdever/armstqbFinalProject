@@ -1,0 +1,9 @@
+{
+  "id": 42,
+  "name": "White Lily",
+  "price": 11.72,
+  "description": "A beautiful white lily to brighten your day.",
+  "image_url": "img/flower_42.jpg",
+  "stock": 78,
+  "category": "Roses"
+}

@@ -1,0 +1,9 @@
+{
+  "id": 33,
+  "name": "Daisy",
+  "price": 11.67,
+  "description": "A beautiful daisy to brighten your day.",
+  "image_url": "img/flower_33.jpg",
+  "stock": 86,
+  "category": "Sunflowers"
+}

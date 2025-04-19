@@ -1,0 +1,9 @@
+{
+  "id": 1,
+  "name": "Daisy",
+  "price": 22.61,
+  "description": "A beautiful daisy to brighten your day.",
+  "image_url": "img/flower_1.jpg",
+  "stock": 3,
+  "category": "Orchids"
+}

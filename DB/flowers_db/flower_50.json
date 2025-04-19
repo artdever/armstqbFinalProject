@@ -1,0 +1,9 @@
+{
+  "id": 50,
+  "name": "Orchid",
+  "price": 20.09,
+  "description": "A beautiful orchid to brighten your day.",
+  "image_url": "img/flower_50.jpg",
+  "stock": 84,
+  "category": "Sunflowers"
+}

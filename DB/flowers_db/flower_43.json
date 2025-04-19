@@ -1,0 +1,9 @@
+{
+  "id": 43,
+  "name": "Gardenia",
+  "price": 13.56,
+  "description": "A beautiful gardenia to brighten your day.",
+  "image_url": "img/flower_43.jpg",
+  "stock": 17,
+  "category": "Orchids"
+}

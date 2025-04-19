@@ -1,0 +1,9 @@
+{
+  "id": 41,
+  "name": "Blue Hydrangea",
+  "price": 12.81,
+  "description": "A beautiful blue hydrangea to brighten your day.",
+  "image_url": "img/flower_41.jpg",
+  "stock": 80,
+  "category": "Lilies"
+}

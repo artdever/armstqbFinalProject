@@ -1,0 +1,9 @@
+{
+  "id": 15,
+  "name": "Daisy",
+  "price": 15.67,
+  "description": "A beautiful daisy to brighten your day.",
+  "image_url": "img/flower_15.jpg",
+  "stock": 26,
+  "category": "Roses"
+}

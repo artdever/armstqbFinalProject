@@ -1,0 +1,9 @@
+{
+  "id": 18,
+  "name": "Yellow Tulip",
+  "price": 7.78,
+  "description": "A beautiful yellow tulip to brighten your day.",
+  "image_url": "img/flower_18.jpg",
+  "stock": 40,
+  "category": "Roses"
+}

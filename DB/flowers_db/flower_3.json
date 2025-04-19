@@ -1,0 +1,9 @@
+{
+  "id": 3,
+  "name": "Yellow Tulip",
+  "price": 12.6,
+  "description": "A beautiful yellow tulip to brighten your day.",
+  "image_url": "img/flower_3.jpg",
+  "stock": 10,
+  "category": "Sunflowers"
+}

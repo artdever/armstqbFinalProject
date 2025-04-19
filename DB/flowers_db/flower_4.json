@@ -1,0 +1,9 @@
+{
+  "id": 4,
+  "name": "Red Rose",
+  "price": 22.92,
+  "description": "A beautiful red rose to brighten your day.",
+  "image_url": "img/flower_4.jpg",
+  "stock": 45,
+  "category": "Peonies"
+}

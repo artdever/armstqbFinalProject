@@ -1,0 +1,9 @@
+{
+  "id": 8,
+  "name": "Cherry Blossom",
+  "price": 23.0,
+  "description": "A beautiful cherry blossom to brighten your day.",
+  "image_url": "img/flower_8.jpg",
+  "stock": 62,
+  "category": "Wildflowers"
+}
