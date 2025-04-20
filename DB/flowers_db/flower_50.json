@@ -1,9 +1,0 @@
-{
-    "id": 50,
-    "name": "Flower 50",
-    "price": 71.5,
-    "description": "A beautiful flower number 50 to brighten your day.",
-    "image_url": "DB/flowers_img/flower_50.jpg",
-    "stock": 1,
-    "category": "Orchids"
-}
