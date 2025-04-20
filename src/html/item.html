@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Details | ArmFlor.am</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../../assets/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container my-5">
+        <a href="index.html" class="btn btn-outline-secondary mb-4">← Back to Home</a>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card shadow d-flex flex-row">
+                    <!-- Image Section -->
+                    <div class="zoom-container" id="flower-img-wrapper" style="flex-shrink: 0; width: 50%;">
+                        <img id="flower-img" src="" class="card-img-top" alt="Flower">
+                    </div>
+
+                    <!-- Text Section -->
+                    <div class="card-body"
+                        style="flex-grow: 1; display: flex; flex-direction: column; justify-content: center; padding-left: 20px;">
+                        <h3 id="flower-name" class="card-title"></h3>
+                        <p id="flower-description" class="card-text"></p>
+                        <p><strong>Price:</strong> $<span id="flower-price"></span></p>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="../../DB/flowers_db/flowers_db.js"></script>
+    <script src="../js/item.js"></script>
+</body>
+
+</html>
