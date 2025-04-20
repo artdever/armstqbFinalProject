@@ -44,3 +44,31 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+/* Ensure image wrapper is styled to handle zoom */
+.zoom-container {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    /* Make it clear that the image is clickable */
+    display: block;
+}
+
+
+/* When zoomed, scale the image */
+.zoom-container.zoomed #flower-img {
+    transform: scale(2);
+    /* You can change the scale factor here */
+    cursor: zoom-out;
+    /* Change cursor to indicate zoom-out */
+}
+
+/* Optional: Ensure the image doesn't grow larger than a certain size */
+.zoom-container img {
+    max-width: 100%;
+    /* Prevent the image from being too large */
+    max-height: 500px;
+    /* You can adjust this based on your layout */
+    object-fit: contain;
+    /* Ensures the image maintains its aspect ratio */
+}
