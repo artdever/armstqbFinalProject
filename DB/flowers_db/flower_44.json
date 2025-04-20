@@ -1,9 +1,0 @@
-{
-    "id": 44,
-    "name": "Flower 44",
-    "price": 64.12,
-    "description": "A beautiful flower number 44 to brighten your day.",
-    "image_url": "DB/flowers_img/flower_44.jpg",
-    "stock": 5,
-    "category": "Orchids"
-}

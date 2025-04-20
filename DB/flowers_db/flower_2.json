@@ -1,9 +1,0 @@
-{
-    "id": 2,
-    "name": "Flower 2",
-    "price": 12.46,
-    "description": "A beautiful flower number 2 to brighten your day.",
-    "image_url": "DB/flowers_img/flower_2.jpg",
-    "stock": 3,
-    "category": "Orchids"
-}

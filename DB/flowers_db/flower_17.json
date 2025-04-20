@@ -1,9 +1,0 @@
-{
-    "id": 17,
-    "name": "Flower 17",
-    "price": 30.91,
-    "description": "A beautiful flower number 17 to brighten your day.",
-    "image_url": "DB/flowers_img/flower_17.jpg",
-    "stock": 8,
-    "category": "Tulips"
-}
