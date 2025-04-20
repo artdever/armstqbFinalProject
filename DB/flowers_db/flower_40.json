@@ -1,9 +1,9 @@
 {
-  "id": 40,
-  "name": "Lavender",
-  "price": 21.08,
-  "description": "A beautiful lavender to brighten your day.",
-  "image_url": "img/flower_40.jpg",
-  "stock": 47,
-  "category": "Sunflowers"
+    "id": 40,
+    "name": "Flower 40",
+    "price": 59.2,
+    "description": "A beautiful flower number 40 to brighten your day.",
+    "image_url": "DB/flowers_db/flower_40.jpg",
+    "stock": 1,
+    "category": "Orchids"
 }

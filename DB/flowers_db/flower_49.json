@@ -1,9 +1,9 @@
 {
-  "id": 49,
-  "name": "Gardenia",
-  "price": 22.13,
-  "description": "A beautiful gardenia to brighten your day.",
-  "image_url": "img/flower_49.jpg",
-  "stock": 72,
-  "category": "Orchids"
+    "id": 49,
+    "name": "Flower 49",
+    "price": 70.27,
+    "description": "A beautiful flower number 49 to brighten your day.",
+    "image_url": "DB/flowers_db/flower_49.jpg",
+    "stock": 10,
+    "category": "Tulips"
 }

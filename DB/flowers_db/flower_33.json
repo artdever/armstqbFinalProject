@@ -1,9 +1,9 @@
 {
-  "id": 33,
-  "name": "Daisy",
-  "price": 11.67,
-  "description": "A beautiful daisy to brighten your day.",
-  "image_url": "img/flower_33.jpg",
-  "stock": 86,
-  "category": "Sunflowers"
+    "id": 33,
+    "name": "Flower 33",
+    "price": 50.59,
+    "description": "A beautiful flower number 33 to brighten your day.",
+    "image_url": "DB/flowers_db/flower_33.jpg",
+    "stock": 4,
+    "category": "Tulips"
 }

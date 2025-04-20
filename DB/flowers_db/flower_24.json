@@ -1,9 +1,9 @@
 {
-  "id": 24,
-  "name": "White Lily",
-  "price": 15.21,
-  "description": "A beautiful white lily to brighten your day.",
-  "image_url": "img/flower_24.jpg",
-  "stock": 27,
-  "category": "Peonies"
+    "id": 24,
+    "name": "Flower 24",
+    "price": 39.52,
+    "description": "A beautiful flower number 24 to brighten your day.",
+    "image_url": "DB/flowers_db/flower_24.jpg",
+    "stock": 5,
+    "category": "Orchids"
 }

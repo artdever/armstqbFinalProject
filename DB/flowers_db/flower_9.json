@@ -1,9 +1,9 @@
 {
-  "id": 9,
-  "name": "Lavender",
-  "price": 9.22,
-  "description": "A beautiful lavender to brighten your day.",
-  "image_url": "img/flower_9.jpg",
-  "stock": 83,
-  "category": "Wildflowers"
+    "id": 9,
+    "name": "Flower 9",
+    "price": 21.07,
+    "description": "A beautiful flower number 9 to brighten your day.",
+    "image_url": "DB/flowers_db/flower_9.jpg",
+    "stock": 10,
+    "category": "Tulips"
 }

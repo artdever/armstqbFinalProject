@@ -1,9 +1,9 @@
 {
-  "id": 7,
-  "name": "Pink Peony",
-  "price": 16.71,
-  "description": "A beautiful pink peony to brighten your day.",
-  "image_url": "img/flower_7.jpg",
-  "stock": 53,
-  "category": "Peonies"
+    "id": 7,
+    "name": "Flower 7",
+    "price": 18.61,
+    "description": "A beautiful flower number 7 to brighten your day.",
+    "image_url": "DB/flowers_db/flower_7.jpg",
+    "stock": 8,
+    "category": "Tulips"
 }

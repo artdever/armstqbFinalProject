@@ -1,9 +1,9 @@
 {
-  "id": 38,
-  "name": "Pink Peony",
-  "price": 15.31,
-  "description": "A beautiful pink peony to brighten your day.",
-  "image_url": "img/flower_38.jpg",
-  "stock": 86,
-  "category": "Sunflowers"
+    "id": 38,
+    "name": "Flower 38",
+    "price": 56.74,
+    "description": "A beautiful flower number 38 to brighten your day.",
+    "image_url": "DB/flowers_db/flower_38.jpg",
+    "stock": 9,
+    "category": "Orchids"
 }

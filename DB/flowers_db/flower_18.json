@@ -1,9 +1,9 @@
 {
-  "id": 18,
-  "name": "Yellow Tulip",
-  "price": 7.78,
-  "description": "A beautiful yellow tulip to brighten your day.",
-  "image_url": "img/flower_18.jpg",
-  "stock": 40,
-  "category": "Roses"
+    "id": 18,
+    "name": "Flower 18",
+    "price": 32.14,
+    "description": "A beautiful flower number 18 to brighten your day.",
+    "image_url": "DB/flowers_db/flower_18.jpg",
+    "stock": 9,
+    "category": "Orchids"
 }

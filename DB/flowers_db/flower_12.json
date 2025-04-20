@@ -1,9 +1,9 @@
 {
-  "id": 12,
-  "name": "Lavender",
-  "price": 7.44,
-  "description": "A beautiful lavender to brighten your day.",
-  "image_url": "img/flower_12.jpg",
-  "stock": 66,
-  "category": "Roses"
+    "id": 12,
+    "name": "Flower 12",
+    "price": 24.76,
+    "description": "A beautiful flower number 12 to brighten your day.",
+    "image_url": "DB/flowers_db/flower_12.jpg",
+    "stock": 3,
+    "category": "Orchids"
 }

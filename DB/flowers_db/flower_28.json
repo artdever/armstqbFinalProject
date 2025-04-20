@@ -1,9 +1,9 @@
 {
-  "id": 28,
-  "name": "Orchid",
-  "price": 23.4,
-  "description": "A beautiful orchid to brighten your day.",
-  "image_url": "img/flower_28.jpg",
-  "stock": 25,
-  "category": "Wildflowers"
+    "id": 28,
+    "name": "Flower 28",
+    "price": 44.44,
+    "description": "A beautiful flower number 28 to brighten your day.",
+    "image_url": "DB/flowers_db/flower_28.jpg",
+    "stock": 9,
+    "category": "Orchids"
 }

@@ -1,9 +1,9 @@
 {
-  "id": 25,
-  "name": "White Lily",
-  "price": 21.76,
-  "description": "A beautiful white lily to brighten your day.",
-  "image_url": "img/flower_25.jpg",
-  "stock": 93,
-  "category": "Roses"
+    "id": 25,
+    "name": "Flower 25",
+    "price": 40.75,
+    "description": "A beautiful flower number 25 to brighten your day.",
+    "image_url": "DB/flowers_db/flower_25.jpg",
+    "stock": 6,
+    "category": "Tulips"
 }
