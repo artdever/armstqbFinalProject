@@ -3,7 +3,7 @@
     "name": "Flower 31",
     "price": 48.13,
     "description": "A beautiful flower number 31 to brighten your day.",
-    "image_url": "DB/flowers_db/flower_31.jpg",
+    "image_url": "DB/flowers_img/flower_31.jpg",
     "stock": 2,
     "category": "Tulips"
 }

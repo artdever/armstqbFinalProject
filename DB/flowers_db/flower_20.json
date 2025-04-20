@@ -3,7 +3,7 @@
     "name": "Flower 20",
     "price": 34.6,
     "description": "A beautiful flower number 20 to brighten your day.",
-    "image_url": "DB/flowers_db/flower_20.jpg",
+    "image_url": "DB/flowers_img/flower_20.jpg",
     "stock": 1,
     "category": "Orchids"
 }

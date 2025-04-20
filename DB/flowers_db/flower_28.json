@@ -3,7 +3,7 @@
     "name": "Flower 28",
     "price": 44.44,
     "description": "A beautiful flower number 28 to brighten your day.",
-    "image_url": "DB/flowers_db/flower_28.jpg",
+    "image_url": "DB/flowers_img/flower_28.jpg",
     "stock": 9,
     "category": "Orchids"
 }

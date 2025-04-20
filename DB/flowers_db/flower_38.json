@@ -3,7 +3,7 @@
     "name": "Flower 38",
     "price": 56.74,
     "description": "A beautiful flower number 38 to brighten your day.",
-    "image_url": "DB/flowers_db/flower_38.jpg",
+    "image_url": "DB/flowers_img/flower_38.jpg",
     "stock": 9,
     "category": "Orchids"
 }

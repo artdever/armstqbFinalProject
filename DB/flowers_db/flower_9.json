@@ -3,7 +3,7 @@
     "name": "Flower 9",
     "price": 21.07,
     "description": "A beautiful flower number 9 to brighten your day.",
-    "image_url": "DB/flowers_db/flower_9.jpg",
+    "image_url": "DB/flowers_img/flower_9.jpg",
     "stock": 10,
     "category": "Tulips"
 }
