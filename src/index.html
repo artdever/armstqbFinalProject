@@ -3,9 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ArmFlor.am| Ծաղիկներ</title>
+    <title>ArmFlor.am | Flowers </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../assets/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/bootswatch.css">
 </head>
 <body>
-    
+    <h1 id="h1id">ArmFlor.am</h1>
+    <!-- header menu -->
+    <nav class="navbar navbar-expand-lg bg-light" data-bs-theme="light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">ArmFlor.am</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor03">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home
+                            <span class="visually-hidden">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Flowers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gift Boxes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Creative Gifts</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Shops</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">ArmFlor.am Gift cards</a>
+                            <a class="dropdown-item" href="#">ArmFlor.am Shops</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-sm-2" type="search" placeholder="Search">
+                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Flower Gallery -->
+    <div class="container mt-5">
+        <div class="row" id="flowers-container">
+            <!-- Flower cards will be dynamically loaded here -->
+        </div>
+    </div>
+
+    <!-- Links for dropdown menu to be clickable -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+
+    <!-- Load the flowers.js script -->
+    <script src="flowers.js"></script>
 </body>
 </html>
