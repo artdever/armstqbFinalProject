@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart | ArmFlor.am</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../../assets/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container mt-5">
+    <h2>Your Cart</h2>
+    <div id="cart-items" class="row mt-4"></div>
+    <a href="index.html" class="btn btn-secondary mt-6">← Continue Shopping</a>
+</div>
+
+<script>
+    const cartItemsContainer = document.getElementById('cart-items');
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+    if(cart.length === 0) {
+        cartItemsContainer.innerHTML = '<p>Your cart is empty!</p>';
+    } else {
+        cart.forEach(item => {
+            const div = document.createElement('div');
+            div.className = 'col-md-4';
+            div.innerHTML = `
+                <div class="card mb-4">
+                    <img src="${item.image}" class="card-img-top" alt="${item.name}">
+                    <div class="card-body">
+                        <h5 class="card-title">${item.name}</h5>
+                        <p class="card-text">Price: $${item.price}</p>
+                    </div>
+                </div>
+            `;
+            cartItemsContainer.appendChild(div);
+        });
+    }
+</script>
+
+</body>
+</html>

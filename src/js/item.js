@@ -29,3 +29,26 @@ if (flowerDatabase && flowerDatabase[flowerId]) {
 imgEl.addEventListener("click", function () {
     imgWrapper.classList.toggle("zoomed");  // Toggle zoom effect on image click
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const addToCartBtn = document.getElementById('addToCartBtn');
+    if (addToCartBtn) {
+        addToCartBtn.addEventListener('click', function() {
+            const flowerName = document.getElementById('flower-name').textContent;
+            const flowerPrice = document.getElementById('flower-price').textContent;
+            const flowerImg = document.getElementById('flower-img').src;
+
+            const item = {
+                name: flowerName,
+                price: flowerPrice,
+                image: flowerImg
+            };
+
+            let cart = JSON.parse(localStorage.getItem('cart')) || [];
+            cart.push(item);
+            localStorage.setItem('cart', JSON.stringify(cart));
+
+            alert("Flower added to cart!");
+        });
+    }
+});
