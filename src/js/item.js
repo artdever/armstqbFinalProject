@@ -52,3 +52,22 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+
+
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const buyNowBtn = document.getElementById('buyNowBtn');
+        const addToCartBtn = document.getElementById('addToCartBtn');
+
+        buyNowBtn.addEventListener('click', function() {
+            // Remove the Add to Cart button
+            if (addToCartBtn) {
+                addToCartBtn.remove();
+            }
+
+            alert('Thanks for your purchase! Further steps will be processed.');
+            
+        });
+    });
+
+
