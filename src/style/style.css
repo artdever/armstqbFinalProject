@@ -72,3 +72,13 @@ body {
     object-fit: contain;
     /* Ensures the image maintains its aspect ratio */
 }
+
+.btn.btn-danger{
+    background-color: rgb(141, 14, 14);
+    color: white;
+}
+
+#addToCartBtn{
+    background-color: rgb(33, 33, 125);
+   
+}
