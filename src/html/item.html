@@ -7,9 +7,45 @@
     <title>Flower Details | ArmFlor.am</title>
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="../../assets/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/bootswatch.css">
 </head>
 
 <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light" data-bs-theme="light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">ArmFlor.am</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03"
+                aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor03">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home <span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Flowers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Gift Boxes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Creative Gifts</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cart.html">Cart</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Shops</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">ArmFlor.am Gift cards</a>
+                            <a class="dropdown-item" href="#">ArmFlor.am Shops</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-sm-2" type="search" placeholder="Search">
+                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">GO</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
     <div class="container my-5">
         <a href="index.html" class="btn btn-outline-secondary mb-4">← Back to Home</a>
         <div class="row justify-content-center">
@@ -26,13 +62,16 @@
                         <h3 id="flower-name" class="card-title"></h3>
                         <p id="flower-description" class="card-text"></p>
                         <p><strong>Price:</strong> $<span id="flower-price"></span></p>
-                        <button class="btn btn-primary">Add to Cart</button>
+                        
+                        <button id="addToCartBtn" class="btn btn-primary mb-2">Add to Cart</button>
+                        <button id="buyNowBtn" class="btn btn-success">Buy Now</button>
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
+    
     <!-- Scripts -->
     <script src="../../DB/flowers_db/flowers_db.js"></script>
     <script src="../js/item.js"></script>
